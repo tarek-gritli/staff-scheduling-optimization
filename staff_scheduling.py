@@ -234,9 +234,6 @@ class StaffSchedulingApp(QMainWindow):
                 max_shifts = int(self.max_shifts_input.text())
                 
                 # Check if all inputs are positive integers
-                
-                
-
                 if num_employees <= 0 or num_shifts <= 0 or num_days <= 0 or max_shifts <= 0:
                     raise ValueError("All numeric inputs must be positive integers.")
 
